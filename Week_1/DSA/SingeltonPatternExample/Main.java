@@ -9,7 +9,7 @@ public class Main {
         if (logger1 == logger2) {
             System.out.println("Both logger1 and logger2 are the same instance.");
         } else {
-            System.out.println("Different instances found.");
+            System.out.println("Different instances founds.");
         }
     }
 }
