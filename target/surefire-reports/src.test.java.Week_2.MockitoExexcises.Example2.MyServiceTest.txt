@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: src.test.java.Week_2.MockitoExexcises.Example2.MyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.249 s - in src.test.java.Week_2.MockitoExexcises.Example2.MyServiceTest
