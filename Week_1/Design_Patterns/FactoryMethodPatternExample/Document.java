@@ -3,3 +3,4 @@ public interface Document {
     void close();
     void save();
 }
+
