@@ -1,7 +1,7 @@
 # Maven target directory
 /target/
 
-# VS Code workspace settings
+# VS Code settings
 .vscode/
 
 # Java class files
@@ -9,6 +9,7 @@
 
 # Logs
 *.log
+hs_err_pid*
 
 # Temporary and backup files
 *.tmp
@@ -20,15 +21,62 @@
 .DS_Store
 Thumbs.db
 
-# Environment variable files (if you use dotenv or similar)
+# Environment variable files (if used)
 .env
 .env.*
 
-# IntelliJ (in case someone uses it)
+# IntelliJ IDEA
 .idea/
 *.iml
+*.iws
+out/
 
-# Eclipse files (in case someone switches IDEs)
+# Eclipse
 .project
 .classpath
 .settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Spring Boot specific (if creating fat JARs)
+spring-boot-loader/
+META-INF/
+BOOT-INF/
+
+# Test output
+/test-output/
+
+# JetBrains Rider
+.idea/
+
+# macOS folder attributes
+.AppleDouble
+.LSOverride
+
+# Windows dump files
+*.dmp
+
+# Git-ignored temp files
+*.orig
+
+# JWT keys/certs (if ever generated locally)
+*.pem
+*.key
+*.crt
+
+# Coverage and build tools
+jacoco.exec
+coverage-reports/
+
+# Backup ZIPs
+*.zip
+*.tar.gz
+*.rar
+
+.jar
